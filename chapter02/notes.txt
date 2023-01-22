@@ -1,0 +1,15 @@
+# Sequences
+
+## Container and Flat sequences
+A container sequence holds references to the objects it contains, which may be of any type,
+while a flat sequence store the value of its contents in its own memory space, not as
+distinct Python objects.
+
+## Mutable and Immutable sequences
+
+# Genexps (Generator Expressions)
+Genexp saves memory because it yields items one by one using the iterator protocol instead
+of building a whole list just to feed another constructor.
+
+Genexps use the same syntax as listcomps, but are enclosed in parenteses rather than
+brackets.
